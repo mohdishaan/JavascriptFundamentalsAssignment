@@ -1,0 +1,19 @@
+Ques1 : Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Sol: 
+Operators in JavaScript are special symbols that perform operations on variables and values. 
+They can be classified into several categories:
+1.Arithmetic Operators:  used for mathematical calculations (eg., +, -,*,/,%) 
+2.Comparison Operators: used to compare two values (e.g., ==, ===, !=, !==, <,>,<=,>=) 
+3.Logical Operators: Used to combine multiple conditions (e.g., &&(AND), ||(OR), !(NOT)) 
+4.Assignment Operators: Used to assign values to variables.(e.g., =, +=,-=,*=)
+5.Bitwise Operators: Operate on binary representations of integers. (e.g., &, |, ^, ~, <<, >>)
+6.Ternary Operator: A shorthand for if-else statements.(Syntax: condition ? expr1 : expr2)
+
+Importance:
+
+1.Performing Calculations: Arithmetic operators allow developers to perform calculations needed for applications, such as calculating totals, averages, and other numerical operations.
+
+2.Controlling Flow: Comparison and logical operators are fundamental in controlling the flow of programs through conditional statements (e.g., if, switch) and loops. They enable decision-making based on conditions.
+
+3.Manipulating Data: Assignment operators help manipulate and store data in variables, allowing developers to update and retrieve values throughout their code.

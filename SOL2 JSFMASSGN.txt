@@ -1,0 +1,96 @@
+Ques2: Describe the categorization of operators in JavaScript based on their functionality. Provide examples for 
+each category.
+
+Sol:
+
+Following are the different categories of operators in JavaScript:
+
+1. Arithmetic Operators:
+These Operators perform basic mathematical operations
+EG:
+-> Addition (+):
+    let sum = 5+3;
+-> Subtraction (-):
+    let difference = 10-4;
+-> Multiplication(*):
+    let product = 5*6;
+-> Division(/):
+    let quotient = 3/2;
+-> Modulus(%):
+    let remainder = 8%2;
+
+2. Assignment Operators:
+These operators assign values to the variables.
+EG:
+-> Simple Assignment(=):
+    let x = 10;
+-> Addition Assignment (+=):
+    x += 5;
+-> Subtraction Assignment (-=):
+    x -= 2; 
+-> Multiplication Assignment (*=):
+    x *= 3;
+-> Division Assignment (/=):
+    x /= 4;
+
+3. Comparison Operators:
+These operators compare two values and return a Boolean result (true or false)
+EG:
+->Equal (==):
+    console.log(5 == '5');
+->Strict Equal (===):
+    console.log(5 === '5');
+->Not Equal (!=):
+    console.log(5 != '5');
+->Strict Not Equal (!==):
+    console.log(5 !== '5');
+->Greater Than (>):
+    console.log(10 > 5);
+->Less Than (<):
+    console.log(3 < 4);
+->Greater Than or Equal (>=):
+    console.log(5 >= 5);
+->Less Than or Equal (<=):
+    console.log(4 <= 5);
+
+4. Logical Operators:
+These operators are used to combine two or more Boolean expressions.
+EG:
+->Logical AND (&&):
+    console.log(true && false);
+->Logical OR (||):
+    console.log(true || false);
+->Logical NOT (!):
+    console.log(!true);
+
+5. Bitwise Operators:
+These operators perform operations on binary representations of numbers.
+EG:
+->Bitwise AND (&):
+    console.log(5 & 3); // 1 
+->Bitwise OR (|):
+    console.log(5 | 3); // 7 
+->Bitwise XOR (^):
+    console.log(5 ^ 3); // 6
+->Left Shift (<<):
+    console.log(5 << 1); // 10
+->Right Shift (>>):
+    console.log(5 >> 1); // 2
+
+6. Unary Operators:
+These operators operate on a single operand.
+
+->Unary Plus (+):
+    let num = '5';
+    console.log(+num); // 5
+->Unary Negation (-):
+    console.log(-num); // -5
+
+7. Ternary Operator:
+The ternary operator is a shorthand for if...else conditions.
+
+->Syntax: condition ? valueIfTrue : valueIfFalse;
+
+->Eg: 
+let age = 20;
+let canVote = (age >= 18) ? "Yes" : "No";  // "Yes"

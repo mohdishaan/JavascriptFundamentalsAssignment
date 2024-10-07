@@ -1,0 +1,67 @@
+Ques3: . Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Sol:
+
+1. Unary Operators:
+
+Unary operators operate on one operand. These operators either change the value of the operand or perform some operation based on it.
+Examples:
+Unary plus (+): Converts the operand into a number.
+        let str = "5";
+        let num = +str; // 5 (string is converted to number)
+
+Unary minus (-): Negates the value of the operand.
+        let x = 10;
+        let negX = -x; // -10
+
+Increment (++): Increases the value of the operand by 1.
+        let a = 5;
+        a++; // 6
+
+Decrement (--): Decreases the value of the operand by 1.
+        let b = 3;
+        b--; // 2
+
+2.Binary Operators:
+
+Binary operators operate on two operands. These are the most common type of operators in JavaScript.
+Examples:
+Arithmetic Operators: Perform mathematical operations.
+        let sum = 5 + 3; // 8 (Addition)
+        let diff = 10 - 4; // 6 (Subtraction)
+        let product = 2 * 3; // 6 (Multiplication)
+        let quotient = 15 / 3; // 5 (Division)
+        let remainder = 7 % 2; // 1 (Modulus)
+
+Assignment Operators: Assign values to variables
+        let x = 10; // Assignment
+        x += 5; // x is now 15 (Addition assignment)
+
+Comparison Operators: Compare two values and return a boolean result.
+        let isEqual = 5 == 5; // true (Equal to)
+        let isStrictEqual = 5 === "5"; // false (Strict equal to)
+        let isGreater = 10 > 5; // true (Greater than)
+
+Logical Operators: Combine boolean values and return a boolean result
+        let result = true && false; // false (Logical AND)
+        let either = true || false; // true (Logical OR)
+
+Bitwise Operators: Perform operations on binary representations of numbers.
+        let and = 5 & 1; // 1 (Bitwise AND)
+        let or = 5 | 1; // 5 (Bitwise OR)
+
+
+3. Ternary Operator:
+The ternary operator is the only operator in JavaScript that takes three operands. It is used as a shorthand for an if...else statement to conditionally assign a value based on a condition.
+Syntax:
+condition ? expressionIfTrue : expressionIfFalse;
+
+Example:
+let age = 18;
+let canVote = (age >= 18) ? "Yes" : "No"; // "Yes"
+
+
+
+
+
+

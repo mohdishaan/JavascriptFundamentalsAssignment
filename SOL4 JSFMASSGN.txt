@@ -1,0 +1,48 @@
+Ques4: Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts 
+important?
+
+Sol:
+
+Operator precedence and associativity determine the order in which operators are evaluated in an expression. Understanding these concepts is crucial to correctly predicting the outcome of complex expressions and avoiding bugs in your code.
+
+1. Operator Precedence:
+
+Operator precedence defines the priority of operators in an expression. Operators with higher precedence are evaluated before operators with lower precedence.
+EG: let result = 5 + 3 * 2;     // 5 + (3 * 2) = 11, not (5 + 3) * 2
+
+Here’s a brief list of some common operators ordered by their precedence (from highest to lowest):
+
+Precedence	Operators
+20	        () (parentheses)
+17	        ++, -- (postfix)
+16	        ++, -- (prefix), +, - (unary)
+15	        *, /, % (multiplication, division, modulus)
+14	        +, - (addition, subtraction)
+12	        <, >, <=, >= (relational)
+11	        ==, ===, !=, !== (equality)
+10	        && (logical AND)
+9	        `
+3	        ? : (ternary operator)
+2	        = (assignment), +=, -=, etc. (assignment variants)
+
+
+2. Operator Associativity:
+
+Associativity defines the direction in which operators of the same precedence level are evaluated. Operators can have left-to-right (left-associative) or right-to-left (right-associative) associativity.
+
+->Left-to-right associativity: Operators are evaluated from left to right.
+
+Most binary operators like +, -, *, / follow left-to-right associativity.
+Eg: let result = 10 - 5 - 2; // (10 - 5) - 2 = 3
+
+->Right-to-left associativity: Operators are evaluated from right to left.
+
+Assignment operators (=, +=, -=, etc.) and the ternary (?:) operator are right-associative.
+Eg: let x = y = z = 5; // (x = (y = (z = 5)))
+console.log(x, y, z); // All will be 5
+
+Associativity Table:
+OperatorType	            Associativity	    Example
+Arithmetic (+, -, *, /)	    Left-to-right	    10 - 5 - 2 -> (10 - 5) - 2
+Assignment (=, +=, -=)	    Right-to-left	    x = y = 5 -> x = (y = 5)
+Ternary (?:)	            Right-to-left	    true ? 1 : 0 ? 2 : 3
